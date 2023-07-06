@@ -1,0 +1,78 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HiddenFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DummyClass",
+        "printedName": "DummyClass",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "hello",
+            "printedName": "hello()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HiddenFramework10DummyClassC5helloyyFZ",
+            "mangledName": "$s15HiddenFramework10DummyClassC5helloyyFZ",
+            "moduleName": "HiddenFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DummyClass",
+                "printedName": "HiddenFramework.DummyClass",
+                "usr": "s:15HiddenFramework10DummyClassC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:15HiddenFramework10DummyClassCACycfc",
+            "mangledName": "$s15HiddenFramework10DummyClassCACycfc",
+            "moduleName": "HiddenFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15HiddenFramework10DummyClassC",
+        "mangledName": "$s15HiddenFramework10DummyClassC",
+        "moduleName": "HiddenFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
